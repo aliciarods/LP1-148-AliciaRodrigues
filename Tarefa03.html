@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title>Tarefa 03/20</title>
+     <body bgcolor="Violet">
+        <script language ="javascript">
+
+         document.write("<h3>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.</h3>");
+         document.write("<h3>Aluna: Alicia da Silva Rodrigues. Prontuário: CB301326X </h3>");
+         document.write("<h3>Curso: LP1. Professor: Marco Aurélio. Turma: 148 <h3><br>");
+         document.write("<h3><i> Calcular e exibir a área de um quadrado a partir do valor de sua diagonal que será digitado.</h3></i><br>");
+         
+         var diagonal, lado, raiz, calcular;
+         lado = parseFloat(window.prompt("Digite a quantidade de lados de um quadrado: "));
+         raiz = parseFloat(window.prompt("Digite a raiz do quadrado: "));
+         diagonal = parseFloat(window.prompt("Digite a diagonal do quadrado: "));
+         calcular = diagonal * diagonal + lado * raiz;
+
+        
+         document.write("----------------------------------------------------------------------------------");
+         document.write("<h3>| A área do quadrado a partir do valor diagonal é: " + calcular + " |</h3>");
+         document.write("----------------------------------------------------------------------------------");
+        </script>
+      </body>
+  </head>
+</html>

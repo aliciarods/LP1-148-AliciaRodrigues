@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title>Tarefa 12/20</title>
+     <body bgcolor="Violet">
+        <script language ="javascript">
+
+         document.write("<h3>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.</h3>");
+         document.write("<h3>Aluna: Alicia da Silva Rodrigues. Prontuário: CB301326X </h3>");
+         document.write("<h3>Curso: LP1. Professor: Marco Aurélio. Turma: 148 <h3><br>");
+         document.write("<h3><i> Solicitar a digitação do peso e da altura de uma determinada pessoa. Após a digitação, exibir se esta pessoa está ou não com seu peso ideal. Veja tabela da relação peso/altura².</h3></i><br>");
+        
+
+         var peso, altura, imc;
+         peso = parseFloat(window.prompt("Digite o peso em kg: "));
+         altura = parseFloat(window.prompt("Digite a altura em metros: "));
+         imc = peso / (altura * altura);
+
+         if (imc < 20)
+          document.write("Abaixo do peso.", imc);
+         else if (imc <= 25)
+          document.write("Peso normal.", imc);
+         else (imc > 25)
+          document.write("Acima do peso.", imc);
+
+        </script>
+      </body>
+  </head>
+</html>

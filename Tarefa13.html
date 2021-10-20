@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title>Tarefa 13/20</title>
+     <body bgcolor="Violet">
+        <script language ="javascript">
+
+         document.write("<h3>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.</h3>");
+         document.write("<h3>Aluna: Alicia da Silva Rodrigues. Prontuário: CB301326X </h3>");
+         document.write("<h3>Curso: LP1. Professor: Marco Aurélio. Turma: 148 <h3><br>");
+         document.write("<h3><i> A partir de três valores que serão digitados, verificar se formam ou não um triângulo. Em caso positivo, exibir sua classificação: “Isósceles, escaleno ou equilátero”. Um triângulo escaleno possui todos os lados diferentes, o isósceles, dois lados iguais e o equilátero, todos os lados iguais. Para existir triângulo é necessário que a soma de dois lados quaisquer seja maior que o outro, isto, para os três lados.</h3></i><br>");
+        
+         var n1, n2, n3;
+         n1 = parseFloat(window.prompt("Digite o primeiro valor: "));
+         n2 = parseFloat(window.prompt("Digite o segundo: "));
+         n3 = parseFloat(window.prompt("Digite o terceiro valor: "));
+
+         if 
+            (
+              n2 + n3 > n1 &&
+              n1 + n3 > n2 &&
+              n1 + n2  > n3  
+            )
+        
+            document.write("Essas medidas podem formar um triangulo");
+
+            if (n1 == n2 && n2 == n3)
+               document.write("O triangulo é equilátero.");
+                else if (n1 == n2 || n2 == n3 || n1 == n3)
+               document.write("O triangulo é isósceles.");
+                else
+                document.write("O triangulo é escaleno.");
+            
+ 
+        </script>
+      </body>
+  </head>
+</html>

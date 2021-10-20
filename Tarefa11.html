@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset= "utf-8">
+    <title>Tarefa 11/20</title>
+     <body bgcolor="Violet">
+        <script language ="javascript">
+
+         document.write("<h3>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo.</h3>");
+         document.write("<h3>Aluna: Alicia da Silva Rodrigues. Prontuário: CB301326X </h3>");
+         document.write("<h3>Curso: LP1. Professor: Marco Aurélio. Turma: 148 <h3><br>");
+         document.write("<h3><i>Uma escola com cursos em regime semestral, realiza duas avaliações durante o semestre e calcula a média do aluno, da seguinte maneira;"); 
+         document.write("MEDIA = (P1 +  2P2) / 3. Solicitar a digitação dos valores das notas (P1 e P2) e calcular a média. Exibir a situação final do aluno (“Aprovado ou Reprovado”), sabendo que a média de aprovação é igual a seis;</h3></i><br>");
+        
+         var nota1, nota2, media, foiAprovad;
+         nota1 = parseFloat(window.prompt("Digite a primeira nota: "));
+         nota2 = parseFloat(window.prompt("Digite a segunda nota: "));
+         media = (nota1 + nota2) / 3.0;
+         foiAprovad = 6.0;
+
+         if (foiAprovad >= 6.0)
+          document.write("Aprovado(a)!", foiAprovad);
+         else if (foiAprovad < 6.0)
+          document.write("Reprovado(o)!", foiAprovad);
+
+        </script>
+      </body>
+  </head>
+</html>
